@@ -1,1 +1,53 @@
-/*# sourceMappingURL=main.css.map */
+* {
+  box-sizing: border-box;
+}
+
+.main-container {
+  width: 100%;
+}
+
+.main-slide {
+  position: relative;
+  width: 100%;
+  height: 900px;
+}
+.main-slide .swiper-container {
+  position: relative;
+}
+.main-slide .swiper-container .swiper-wrapper {
+  width: 100%;
+  height: 900px;
+  display: flex;
+}
+.main-slide .cont-text {
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+  bottom: 20%;
+  z-index: 10;
+}
+.main-slide .cont-text .main-submit {
+  width: 1000px;
+  background: #fff;
+  height: 65px;
+  line-height: 65px;
+  text-align: center;
+  border-radius: 10px;
+}
+.main-slide .cont-text .main-submit p {
+  font-size: 28px;
+  font-weight: 500;
+}
+.main-slide .cont-text .sign-box {
+  margin: 30px auto 0 auto;
+  text-align: center;
+  width: 195px;
+  height: 50px;
+  line-height: 50px;
+  background: #3d195b;
+  border-radius: 10px;
+}
+.main-slide .cont-text .sign-box a {
+  display: block;
+  color: #fff;
+}/*# sourceMappingURL=main.css.map */
