@@ -52,3 +52,118 @@
     }
   }
 }
+.main-center {
+  width: 100%;
+  margin-top: 120px;
+  .news-container {
+    width: 1500px;
+    margin: 0 auto;
+    .news-tit {
+      font-size: 36px;
+    }
+    .news-content {
+      margin-top: 50px;
+      display: flex;
+      justify-content: space-between;
+      .contents {
+        width: 600px;
+        display: flex;
+        flex-direction: column;
+        .tit {
+          font-size: 20px;
+          font-weight: 500;
+        }
+        .content {
+          margin-top: 20px;
+          line-height: 1.5;
+        }
+        .more-btn {
+          text-align: center;
+          line-height: 30px;
+          margin-top: 20px;
+          width: 120px;
+          height: 30px;
+          border: 1px solid #8bcffd;
+          border-radius: 5px;
+          a {
+            display: block;
+            color: #8bcffd;
+          }
+        }
+      }
+    }
+  }
+}
+.main-import-news {
+  width: 100%;
+  &.top {
+    margin-top: 100px;
+  }
+  &.bg {
+    background: #3d195b;
+  }
+
+  .import-news-container {
+    width: 1500px;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &.bottom {
+      margin-top: 50px;
+    }
+
+    .news-txt {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      width: 500px;
+      .white {
+        color: #fff;
+      }
+      p {
+        font-size: 20px;
+        font-weight: 600;
+      }
+      span {
+        margin-top: 20px;
+        font-size: 14px;
+        line-height: 1.8;
+      }
+    }
+  }
+}
+.main-bottom-sponsor {
+  width: 100%;
+  margin-top: 100px;
+  .sponsor-container {
+    margin: 0 auto;
+    width: 1400px;
+    .content-box {
+      display: flex;
+      flex-direction: column;
+      p {
+        font-size: 30px;
+        font-weight: 500;
+        text-align: center;
+      }
+      span {
+        margin-top: 20px;
+        font-size: 20px;
+        text-align: center;
+      }
+      .sponsor-box {
+        width: 1000px;
+        margin: 30px auto 0 auto;
+        .box {
+          display: flex;
+          justify-content: space-between;
+          &.mt_50 {
+            margin-top: 50px;
+          }
+        }
+      }
+    }
+  }
+}
