@@ -136,7 +136,8 @@
 }
 .main-bottom-sponsor {
   width: 100%;
-  margin-top: 100px;
+  height: 500px;
+  margin-top: 150px;
   .sponsor-container {
     margin: 0 auto;
     width: 1400px;
@@ -149,18 +150,65 @@
         text-align: center;
       }
       span {
-        margin-top: 20px;
+        margin-top: 40px;
         font-size: 20px;
         text-align: center;
       }
       .sponsor-box {
         width: 1000px;
-        margin: 30px auto 0 auto;
+        margin: 70px auto 0 auto;
         .box {
           display: flex;
           justify-content: space-between;
           &.mt_50 {
-            margin-top: 50px;
+            margin-top: 70px;
+          }
+        }
+      }
+    }
+  }
+}
+.main-signup {
+  width: 100%;
+  height: 300px;
+  background: #f5f5f5;
+  .signup-container {
+    width: 1500px;
+    height: 300px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    .signup-box {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      p {
+        font-size: 25px;
+      }
+      .boxes {
+        width: 500px;
+        display: flex;
+        margin-left: 70px;
+        justify-content: space-between;
+        align-items: center;
+        div {
+          width: 150px;
+          height: 40px;
+          line-height: 40px;
+          text-align: center;
+          border: 1px solid #3d195b;
+          border-radius: 5px;
+          a {
+            display: block;
+          }
+          &.join {
+            background: #3d195b;
+            a {
+              color: #fff;
+            }
+          }
+          &.login a {
+            color: #3d195b;
           }
         }
       }
