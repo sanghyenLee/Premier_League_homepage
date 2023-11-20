@@ -85,9 +85,10 @@
           height: 30px;
           border: 1px solid #8bcffd;
           border-radius: 5px;
+          background: #8bcffd;
           a {
             display: block;
-            color: #8bcffd;
+            color: #fff;
           }
         }
       }
@@ -110,14 +111,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    &.bottom {
-      margin-top: 50px;
-    }
 
     .news-txt {
       display: flex;
       flex-direction: column;
-      position: relative;
       width: 500px;
       .white {
         color: #fff;
@@ -153,6 +150,7 @@
         margin-top: 40px;
         font-size: 20px;
         text-align: center;
+        line-height: 1.5;
       }
       .sponsor-box {
         width: 1000px;
@@ -184,6 +182,7 @@
       align-items: center;
       p {
         font-size: 25px;
+        line-height: 1.5;
       }
       .boxes {
         width: 500px;
