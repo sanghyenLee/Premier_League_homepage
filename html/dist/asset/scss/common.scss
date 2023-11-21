@@ -138,6 +138,9 @@ footer {
   .footer-container {
     width: 1500px;
     margin: 50px auto 0 auto;
+    @include tablet {
+      width: 90%;
+    }
     .footer-nav {
       display: flex;
       justify-content: space-between;
@@ -146,6 +149,9 @@ footer {
         display: flex;
         justify-content: space-between;
         width: 400px;
+        @include tablet {
+          width: 200px;
+        }
         a {
           font-size: 18px;
           font-weight: 500;

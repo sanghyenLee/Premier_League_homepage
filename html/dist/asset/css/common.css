@@ -126,6 +126,11 @@ footer .footer-container {
   width: 1500px;
   margin: 50px auto 0 auto;
 }
+@media (max-width: 768px) {
+  footer .footer-container {
+    width: 90%;
+  }
+}
 footer .footer-container .footer-nav {
   display: flex;
   justify-content: space-between;
@@ -135,6 +140,11 @@ footer .footer-container .footer-nav .nav {
   display: flex;
   justify-content: space-between;
   width: 400px;
+}
+@media (max-width: 768px) {
+  footer .footer-container .footer-nav .nav {
+    width: 200px;
+  }
 }
 footer .footer-container .footer-nav .nav a {
   font-size: 18px;
