@@ -117,6 +117,9 @@
   justify-content: space-between;
   align-items: center;
 }
+.main-import-news .import-news-container a {
+  display: block;
+}
 .main-import-news .import-news-container .news-txt {
   display: flex;
   flex-direction: column;

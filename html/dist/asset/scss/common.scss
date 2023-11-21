@@ -1,21 +1,41 @@
 @charset 'UTF-8';
-@import "mixin";
+@import "./mixin";
+
 header {
   width: 100%;
   height: 60px;
-  .headercontainer {
+  // @include tablet {
+  //   width: 100%;
+  //   height: 60px;
+  // }
+  .headerContainer {
     width: 1500px;
+    height: 100%;
     display: flex;
     margin: 0 auto;
     align-items: center;
     justify-content: space-between;
+    @include tablet {
+      width: 100%;
+      display: flex;
+      margin: 0;
+      align-items: center;
+      justify-content: space-between;
+    }
     .left_cont {
       width: 100%;
       display: flex;
       align-items: center;
+      @include tablet {
+        width: 20%;
+        height: 100%;
+      }
       .header_logo {
         width: 105px;
         height: 45px;
+        @include tablet {
+          width: 130px;
+        }
         a {
           display: block;
           img {
@@ -27,6 +47,9 @@ header {
       ul {
         display: flex;
         margin-left: 70px;
+        @include tablet {
+          display: none;
+        }
         li {
           width: 150px;
           text-align: center;
@@ -47,6 +70,9 @@ header {
       height: 60px;
       justify-content: space-between;
       align-items: center;
+      @include tablet {
+        display: none;
+      }
       .sign-box {
         a {
           color: #3d195b;
@@ -79,6 +105,7 @@ header {
           color: #fff;
         }
       }
+
       div {
         width: 130px;
         height: 40px;
@@ -93,6 +120,16 @@ header {
           height: 40px;
         }
       }
+    }
+    .site-map {
+      display: none;
+      @include tablet {
+        display: inherit;
+      }
+      // button {
+      //   display: block;
+      //   height: 100%;
+      // }
     }
   }
 }
