@@ -45,9 +45,13 @@
       line-height: 50px;
       background: #3d195b;
       border-radius: 10px;
+      transition: 0.3s;
       a {
         display: block;
         color: #fff;
+      }
+      &:hover {
+        opacity: 0.9;
       }
     }
   }
@@ -202,8 +206,12 @@
           }
           &.join {
             background: #3d195b;
+            transition: 0.3s;
             a {
               color: #fff;
+            }
+            &:hover {
+              opacity: 0.9;
             }
           }
           &.login a {

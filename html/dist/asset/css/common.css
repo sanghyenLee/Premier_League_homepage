@@ -36,7 +36,11 @@ header .headercontainer .left_cont ul li {
   line-height: 60px;
 }
 header .headercontainer .left_cont ul li a {
+  display: block;
   font-size: 18px;
+}
+header .headercontainer .left_cont ul li a:hover {
+  font-weight: 400;
 }
 header .headercontainer .signbox {
   display: flex;
@@ -52,6 +56,9 @@ header .headercontainer .signbox .join-box {
   margin-left: 15px;
   background-color: #3d195b;
   transition: 0.3s;
+}
+header .headercontainer .signbox .join-box:hover {
+  opacity: 0.9;
 }
 header .headercontainer .signbox .join-box a {
   color: #fff;
