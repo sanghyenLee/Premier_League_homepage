@@ -81,6 +81,7 @@
     flex-direction: column;
     width: 100%;
     margin: 0 auto;
+    overflow: hidden;
   }
 }
 .main-center .news-container .news-tit {

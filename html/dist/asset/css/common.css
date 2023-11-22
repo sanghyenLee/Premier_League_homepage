@@ -3,7 +3,7 @@ header {
   height: 60px;
 }
 header .headerContainer {
-  width: 1500px;
+  width: 93%;
   height: 100%;
   display: flex;
   margin: 0 auto;
