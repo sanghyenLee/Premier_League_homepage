@@ -10,6 +10,7 @@
   position: relative;
   width: 100%;
   height: 900px;
+  padding-top: 60px;
 }
 .main-slide .swiper-container {
   position: relative;
@@ -199,13 +200,16 @@
 .main-bottom-sponsor .sponsor-container {
   margin: 0 auto;
   width: 1400px;
+  height: 100%;
 }
 @media (max-width: 768px) {
   .main-bottom-sponsor .sponsor-container {
-    width: 650px;
+    width: 100%;
   }
 }
 .main-bottom-sponsor .sponsor-container .content-box {
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
 }
@@ -226,7 +230,7 @@
 }
 @media (max-width: 768px) {
   .main-bottom-sponsor .sponsor-container .content-box .sponsor-box {
-    width: 650px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     margin: 40px auto 0 auto;
@@ -235,6 +239,9 @@
 .main-bottom-sponsor .sponsor-container .content-box .sponsor-box .box {
   display: flex;
   justify-content: space-between;
+}
+.main-bottom-sponsor .sponsor-container .content-box .sponsor-box .box a {
+  display: block;
 }
 .main-bottom-sponsor .sponsor-container .content-box .sponsor-box .box.mt_50 {
   margin-top: 70px;
